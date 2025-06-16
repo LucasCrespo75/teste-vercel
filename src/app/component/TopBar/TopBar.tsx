@@ -58,14 +58,14 @@ export default function TopBar() {
                         Home
                     </Link>
                     <Link
-                        href="/sobre"
+                        href="/#sobre"
                         className={`text-gray-800 hover:text-red-600 transition duration-200 ${currentHash === '#sobre' ? 'font-semibold text-red-600' : ''
                             }`}
                     >
                         Sobre
                     </Link>
                     <Link
-                        href="/servico"
+                        href="/#servico"
                         className={`text-gray-800 hover:text-red-600 transition duration-200 ${currentHash === '#servicos' ? 'font-semibold text-red-600' : ''
                             }`}
                     >
