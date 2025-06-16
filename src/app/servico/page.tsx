@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { FaHardHat, FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa";
-import HeroServico from "../servico/HeaderServico";
+import HeaderServico from "../servico/HeaderServico";
 
 export default function PageServicos() {
     useEffect(() => {
@@ -14,7 +14,7 @@ export default function PageServicos() {
         <main className="font-sans bg-white">
 
             {/* Hero */}
-            <HeroServico />
+            <HeaderServico />
 
             {/* Serviços Diversificados */}
             <section className="py-20 px-8 bg-gray-100 text-center">
