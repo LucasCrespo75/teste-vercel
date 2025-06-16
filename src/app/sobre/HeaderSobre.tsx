@@ -5,7 +5,7 @@ import Image from 'next/image';
 import image1 from '../../assets/image 5.png'; // ajuste o caminho conforme sua estrutura
 import image2 from '../../assets/image 6.png'; // ajuste o caminho conforme sua estrutura
 
-export default function Header() {
+export default function Hero() {
     return (
         <header className="relative">
             {/* Container da imagem com clipPath */}
